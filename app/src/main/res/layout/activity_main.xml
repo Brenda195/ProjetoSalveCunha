@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TelaLogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagemIcone"
+        android:layout_width="189dp"
+        android:layout_height="130dp"
+        android:src="@drawable/icone"
+        android:translationX="80dp"
+        android:translationY="10dp" />
+
+    <TextView
+        android:id="@+id/textoProj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salve Cunhã"
+        android:textColor="#F1A5CF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:translationX="120dp"
+        android:translationY="20dp" />
+
+    <TextView
+        android:id="@+id/textoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para continuar, faça o login."
+        android:textColor="#7EDDB0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationX="85dp"
+        android:translationY="20dp" />
+
+    <ImageView
+        android:id="@+id/imageUser"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/user"
+        android:translationX="50dp"
+        android:translationY="46dp" />
+
+    <EditText
+        android:id="@+id/textoUser"
+        android:layout_width="270dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#C697E3"
+        android:ems="10"
+        android:foregroundTint="#C697E3"
+        android:foregroundTintMode="add"
+        android:inputType="textPersonName"
+        android:shadowColor="#CE97E3"
+        android:textColor="#080709"
+        android:textColorHighlight="#C697E3"
+        android:textColorLink="#C697E3"
+        android:textCursorDrawable="@android:color/holo_purple"
+        android:translationX="45dp"
+        android:translationY="50dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="Usuário ou Email"
+        android:textColor="#C697E3"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationX="100dp"
+        android:translationY="-13dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/cadeado"
+        android:translationX="50dp"
+        android:translationY="60dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="Senha"
+        android:textColor="#C697E3"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationX="100dp"
+        android:translationY="40dp" />
+
+    <EditText
+        android:id="@+id/textoUser2"
+        android:layout_width="270dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#C697E3"
+        android:ems="10"
+        android:foregroundTint="#C697E3"
+        android:foregroundTintMode="add"
+        android:inputType="textPassword"
+        android:shadowColor="#CE97E3"
+        android:textColor="#080709"
+        android:textColorHighlight="#C697E3"
+        android:textColorLink="#C697E3"
+        android:textCursorDrawable="@android:color/holo_purple"
+        android:translationX="45dp"
+        android:translationY="45dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:textColor="#C697E3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:translationX="127dp"
+        android:translationY="65dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:clickable="true"
+        android:src="@drawable/go"
+        android:translationX="190dp"
+        android:translationY="42dp" />
+
+    <Button
+        android:id="@+id/linhaUm"
+        android:layout_width="190dp"
+        android:layout_height="5dp"
+        android:background="#C697E3"
+        android:backgroundTint="#C697E3"
+        android:clickable="false"
+        android:translationX="220dp"
+        android:translationY="85dp" />
+
+    <Button
+        android:id="@+id/linhaDois"
+        android:layout_width="140dp"
+        android:layout_height="5dp"
+        android:background="#C697E3"
+        android:backgroundTint="#C697E3"
+        android:clickable="false"
+        android:translationY="80dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OU"
+        android:textColor="#C697E3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:translationX="165dp"
+        android:translationY="63dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationY="70dp"
+        app:srcCompat="@drawable/loginw" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esqueceu a senha?"
+        android:textColor="#7EDDB0"
+        android:textStyle="bold"
+        android:translationX="10dp"
+        android:translationY="-140dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar conta"
+        android:textColor="#7EDDB0"
+        android:textStyle="bold"
+        android:translationX="250dp"
+        android:translationY="-155dp" />
+
+</LinearLayout>
